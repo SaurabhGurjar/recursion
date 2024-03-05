@@ -1,5 +1,9 @@
 // Assignment 1
-// Q1
+/** Q1 :- Using iteration, write a function fibs which takes a number 
+ * and returns an array containing that many numbers from the Fibonacci sequence. 
+ * Using an example input of 8, this function should r
+ * eturn the array [0, 1, 1, 2, 3, 5, 8, 13].
+ * */ 
 function fibs (num) {
     const fibNums = [];
     for (let i = 0; i < num; i++) {
@@ -14,7 +18,7 @@ function fibs (num) {
 }
 console.log("fibs:", fibs(8));
 
-// Q2
+// Q2 :- Now write another function fibsRec which solves the same problem recursively.
 function fibsRec(num) {
     if(num <= 0) return [];
     if(num === 1) return [0];
@@ -24,4 +28,4 @@ function fibsRec(num) {
     prevNums.push(crtNum);
     return prevNums;
 }
-console.log("fibsRec:", fibsRec(10));
+console.log("fibsRec:", fibsRec(0));
