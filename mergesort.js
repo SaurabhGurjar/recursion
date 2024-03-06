@@ -12,7 +12,7 @@ const fs = require("node:fs");
  * if arr has only 1 item
  * return;
  * else
- * mid = arr.length - 1 / 2
+ * mid = arr.length / 2
  * mergeSort(arrLeftHalf)
  * mergeSort(arrRightHalf) 
  * merge arrarys
